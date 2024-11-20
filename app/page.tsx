@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaTrashAlt, FaPlusCircle } from "react-icons/fa";
 
 export default function Home() {
-  const [taskList, setTaskList] = useState<String[]>([]);
+  const [taskList, setTaskList] = useState<string[]>([]);
   const [taskName, setTaskName] = useState("");
   const [isDarkMode, setIsDarkMode] = useState(false);
 
